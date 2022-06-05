@@ -11,195 +11,243 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <style>
-        body{
-    background:#FCFCFC;
-}
-.pr-12 {
-    padding-right: 12px !important;
-}
+        body {
+            background: #FCFCFC;
+        }
 
-.mb-20 {
-    margin-bottom: 20px !important;
-}
+        .pr-12 {
+            padding-right: 12px !important;
+        }
 
-.b-1 {
-    border: 1px solid #ebebeb !important;
-}
+        .mb-20 {
+            margin-bottom: 20px !important;
+        }
 
-.card {
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 30px;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
+        .b-1 {
+            border: 1px solid #ebebeb !important;
+        }
 
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-}
+        .card {
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 30px;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
 
-.media {
-    padding: 16px 12px;
-    -webkit-transition: background-color .2s linear;
-    transition: background-color .2s linear;
-}
+        .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: .25rem;
+        }
 
-.media {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: start;
-    align-items: flex-start;
-}
+        .media {
+            padding: 16px 12px;
+            -webkit-transition: background-color .2s linear;
+            transition: background-color .2s linear;
+        }
 
-.card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-}
+        .media {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: start;
+            align-items: flex-start;
+        }
 
-.media .avatar {
-    flex-shrink: 0;
-}
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding: 1.25rem;
+        }
 
-.no-radius {
-    border-radius: 0 !important;
-}
+        .media .avatar {
+            flex-shrink: 0;
+        }
 
-.avatar-xl {
-    width: 64px;
-    height: 64px;
-    line-height: 64px;
-    font-size: 1.25rem;
-}
+        .no-radius {
+            border-radius: 0 !important;
+        }
 
-.avatar {
-    position: relative;
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    border-radius: 100%;
-    background-color: #f5f6f7;
-    color: #8b95a5;
-    text-transform: uppercase;
-}
+        .avatar-xl {
+            width: 64px;
+            height: 64px;
+            line-height: 64px;
+            font-size: 1.25rem;
+        }
 
-img {
-    max-width: 100%;
-}
+        .avatar {
+            position: relative;
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            border-radius: 100%;
+            background-color: #f5f6f7;
+            color: #8b95a5;
+            text-transform: uppercase;
+        }
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
+        img {
+            max-width: 100%;
+        }
 
-.mb-2 {
-    margin-bottom: .5rem!important;
-}
+        img {
+            vertical-align: middle;
+            border-style: none;
+        }
 
-.fs-20 {
-    font-size: 20px !important;
-}
+        .mb-2 {
+            margin-bottom: .5rem !important;
+        }
 
-.pr-16 {
-    padding-right: 16px !important;
-}
+        .fs-20 {
+            font-size: 20px !important;
+        }
 
-.ls-1 {
-    letter-spacing: 1px !important;
-}
+        .pr-16 {
+            padding-right: 16px !important;
+        }
 
-.fw-300 {
-    font-weight: 300 !important;
-}
+        .ls-1 {
+            letter-spacing: 1px !important;
+        }
 
-.fs-16 {
-    font-size: 16px !important;
-}
+        .fw-300 {
+            font-weight: 300 !important;
+        }
 
-.media-body>* {
-    margin-bottom: 0;
-}
+        .fs-16 {
+            font-size: 16px !important;
+        }
 
-small, time, .small {
-    font-family: Roboto,sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    color: #8b95a5;
-}
+        .media-body>* {
+            margin-bottom: 0;
+        }
 
-.fs-14 {
-    font-size: 14px !important;
-}
+        small,
+        time,
+        .small {
+            font-family: Roboto, sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+            color: #8b95a5;
+        }
 
-.mb-12 {
-    margin-bottom: 12px !important;
-}
+        .fs-14 {
+            font-size: 14px !important;
+        }
 
-.text-fade {
-    color: rgba(77,82,89,0.7) !important;
-}
+        .mb-12 {
+            margin-bottom: 12px !important;
+        }
 
-.card-footer:last-child {
-    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
-}
+        .text-fade {
+            color: rgba(77, 82, 89, 0.7) !important;
+        }
 
-.card-footer {
-    background-color: #fcfdfe;
-    border-top: 1px solid rgba(77,82,89,0.07);
-    color: #8b95a5;
-    padding: 10px 20px;
-}
+        .card-footer:last-child {
+            border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+        }
 
-.flexbox {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-}
+        .card-footer {
+            background-color: #fcfdfe;
+            border-top: 1px solid rgba(77, 82, 89, 0.07);
+            color: #8b95a5;
+            padding: 10px 20px;
+        }
 
-.align-items-center {
-    -ms-flex-align: center!important;
-    align-items: center!important;
-}
+        .flexbox {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
 
-.card-footer {
-    padding: .75rem 1.25rem;
-    background-color: rgba(0,0,0,.03);
-    border-top: 1px solid rgba(0,0,0,.125);
-}
+        .align-items-center {
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        .card-footer {
+            padding: .75rem 1.25rem;
+            background-color: rgba(0, 0, 0, .03);
+            border-top: 1px solid rgba(0, 0, 0, .125);
+        }
 
 
-.card-footer {
-    background-color: #fcfdfe;
-    border-top: 1px solid rgba(77, 82, 89, 0.07);
-    color: #8b95a5;
-    padding: 10px 20px
-}
+        .card-footer {
+            background-color: #fcfdfe;
+            border-top: 1px solid rgba(77, 82, 89, 0.07);
+            color: #8b95a5;
+            padding: 10px 20px
+        }
 
-.card-footer>*:last-child {
-    margin-bottom: 0
-}
+        .card-footer>*:last-child {
+            margin-bottom: 0
+        }
 
-.hover-shadow {
-    -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.11);
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.11)
-}
+        .hover-shadow {
+            -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.11);
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.11)
+        }
 
-.fs-10 {
-    font-size: 10px !important;
-}
+        .fs-10 {
+            font-size: 10px !important;
+        }
+
+        .foto-profile {
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+            background-size: cover;
+            margin-left: 50%;
+            margin-top: 3%;
+        }
+
+        .foto-profile img {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            background-size: cover;
+        }
+
+        .container-profile {
+            height: 50px;
+            width: 220px;
+            padding: 1;
+        }
+
+        .teks-profile {
+            margin-top: 3%;
+            margin-left: 3%;
+        }
+
+        .kotak-judul {
+            background-color: rgb(255, 187, 187);
+        }
+
+        .kotak-bacaan {
+            background-color: rgb(230, 230, 137);
+        }
+
+          .kotak-isi {
+            background-color: green;
+        }
+
+        .kotak-kesimpulan {
+            background-color: blue;
+        }
+
+
     </style>
 
     <title>Hello, world!</title>
@@ -207,6 +255,44 @@ small, time, .small {
 </head>
 
 <body style="background-color: #fcfcfc">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color : #c4c4af">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-profile row">
+
+            <img class="foto-profile" src="{{ asset('img/profile.jpg') }}">
+            <a class="navbar-brand teks-profile" href="#">User</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Alkitab <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Renungan <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                        Logout
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
     @php
         function tgl_indo($tanggal)
         {
@@ -234,54 +320,37 @@ small, time, .small {
 
 
 
-    <div class="container">
-        <div class="display-4" style="margin-bottom: 5%; margin-top: 5%;">
-            <a href="" style="color: black"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
-                    fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                </svg></a> Riwayat Konseling
+
+        <div class="kotak-judul p-3">
+            <h2 class="display-5">
+                ELEGI UNTUK BUMI
+            </h2>
+            <span><small>Si lintah mempunyai dua anak perempuan: “Untukku!” dan “Untukku!” (Amsal 30:15a)
+            </small></span>
         </div>
-        <div class="col-md-12">
 
-
-
-            <div class="card b-1 hover-shadow mb-20">
-                <div class="media card-body">
-                    <div class="media-left pr-12">
-                        <img class="avatar avatar-xl no-radius" src="https://bootdey.com/img/Content/avatar/avatar3.png"
-                            alt="...">
-                    </div>
-                    <div class="media-body">
-                        <div class="mb-2">
-                            <span class="fs-20 pr-16">judul</span>
-                        </div>
-                        <small class="fs-16 fw-300 ls-1">isi  
-                            
-                        </small>
-                    </div>
-                    {{-- <div class="media-right text-right d-none d-md-block">
-                        <p class="fs-14 text-fade mb-12"><i class="fa fa-map-marker pr-1"></i>{{ $j->nama_guru }}</p>
-                         <span class="text-fade"><i class="fa fa-money pr-1"></i> $40 per hourspan>
-                    </div> --}}
-                </div>
-
-                <footer class="card-footer flexbox align-items-center">
-                    <div>
-                        <strong>Diikuti pada: </strong>
-                        <span></span>
-                        {{-- <span>{{ tgl_indo($j->created_at) }}</span> --}}
-                    </div>
-                    <div class="card-hover-show">
-                        {{-- <a class="btn btn-xs fs-10 btn-bold btn-warning" href="#">Delete</a> --}}
-                        <p class="fs-14 text-fade mb-12"><strong>Pembimbing : </strong><i
-                                class="fa fa-map-marker pr-1"></i></p>
-
-                    </div>
-                </footer>
-            </div>
+        <div class="kotak-bacaan p-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, animi.</p>
         </div>
-    </div>
+
+        <div class="kotak-isi p-3">
+            <p>Paradigma antroposentrisme memandang manusia sebagai pusat dari alam semesta. Nilai tertinggi melekat pada diri manusia, sedangkan alam beserta segala isinya hanya dianggap sebagai alat pemuas kepentingan dan kebutuhan hidup. Alam kerap kali dieksploitasi demi memenuhi keinginan manusia yang tak mengenal batas. Sebagai akibatnya, kerusakan alam menjadi tidak terhindarkan. Nyanyian untuk bumi pun mengalun membangkitkan ratapan terhadap keegoisan manusia.
+
+                Sifat manusia yang egois cenderung membuatnya berpikir hanya untuk kepentingan diri sendiri (self-centered). Seperti yang diungkapkan oleh Agur bin Yake, sifat semacam ini hanya berpusat pada dua hal: untukku dan untukku (ay. 15). Mandat Tuhan untuk memenuhi bumi dan menaklukkannya (Kej. 1:28) ujung-ujungnya diselewengkan oleh manusia demi pemuasan diri sendiri. Penyelewengan ini bertendensi memanfaatkan alam tanpa memperhitungkan kelestariannya.
+
+                Hidup yang self-centered membuat seseorang juga sanggup melakukan eksploitasi terhadap orang lain untuk kepentingan diri sendiri. Pada tataran ini kebutuhan orang lain, termasuk yang menyangkut generasi yang akan datang, cenderung diabaikan.
+
+                Elegi untuk bumi pada dasarnya meratapi keserakahan manusia yang berujung pada kerusakan lingkungan. Kematian hati nurani melahirkan ratapan yang mengungkapkan dukacita mendalam terhadap alam yang semata-mata menjadi objek eksploitasi manusia.
+
+                </p>
+        </div>
+
+        <div class="kotak-kesimpulan p-3">
+            <p>
+                HIDUP YANG BERPUSAT PADA DIRI SENDIRI
+                HANYA MENCIPTAKAN NYANYIAN RATAPAN ATAS BUMI</p>
+        </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
